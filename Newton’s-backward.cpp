@@ -48,3 +48,15 @@ cout << "\n the value of y at x = 38 \n \n";
 cout <<"y("<< fx<< ")="<<sum ;
 return 0 ;
 }
+
+//Enter the number of values to be entered.
+//6
+//Enter the values of x
+//15 20 25 30 35 40
+//Enter the values of y
+//0.2588190 0.3420201 0.4226183 0.5 0.5735764 0.6427876
+
+//Enter the value of x at which the value of y to be calculated
+//38
+
+//Y (38.00000)=0.61566
