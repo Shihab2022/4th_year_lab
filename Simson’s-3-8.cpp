@@ -33,3 +33,11 @@ int main(){
 	cout<<"\n The definite integral is "<<integral <<endl;
 	return 0;
 }
+
+// interval of integration,
+// Lower limit,a= 0
+// Upper limit, b= 1.5708
+// Enter the no. of subintervals
+// Please enter a number that is multiple of 3:
+// 6
+// The definite integral is 1.000063
