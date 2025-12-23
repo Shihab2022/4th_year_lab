@@ -30,3 +30,9 @@ int main (){
 	return 0;
 	
 }
+
+//Enter the limits of integration,
+//Initial limit,a =0
+//Final limit, b =1.5708
+//Enter the no. of subintervals, n =6
+//The definite integral is 0.994286
