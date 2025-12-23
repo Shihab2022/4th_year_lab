@@ -35,6 +35,5 @@ for(i=0;i<n;i++){
 }
 cout<<"\n\n the approximate value of y at x="<<x[n]<<" is="<<y[n]<<endl;
 
-	cout <<"all value is taken ";
 	return 0 ;
 }

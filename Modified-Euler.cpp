@@ -43,3 +43,16 @@ int main(){
 	
 	
 }
+
+//Enter the initial condition
+//Enter the initial value of x
+// 0
+// 
+// Enter the initial value of y
+// -23
+//For what value of x do you want to find the value of y
+// 1
+//Enter the number of subdivisions
+//Please enter a large value of
+// 5
+// y(1.0000000) = -57.9963837

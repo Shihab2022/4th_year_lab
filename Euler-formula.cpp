@@ -16,7 +16,7 @@ int main (){
 	cin>>x0;
 	cout<<"\n enter the initial value of y \n";
 	cin>>y0;
-	cout<<"\n For what value of x do you wnaat ot find the value of y \n";
+	cout<<"\n For what value of x do you want ot find the value of y \n";
 	cin >>fx;
 	cout <<"\n Enter the number of subdivison \n";
 	cout <<"\n Please large value of n \n";
