@@ -15,33 +15,33 @@ int main (){
 	cin>>a[i][j];
 	//pivotisation
 	for(i=0;i<n;i++)
-	for(k=i+1;k<n;k++){
-	if(abs(a[i][i]<abs(a[k][i]))){
+		for(k=i+1;k<n;k++){
+			if(abs(a[i][i])<abs(a[k][i])){
 			for(j=0;j<=n;j++){
 			double temp=a[i][j];
 			a[i][j]=a[k][j];
 			a[k][j]=temp;
 		}
-	}
-	}
+			}
+		}
 	cout<<"The matrix after pivotaisation"<<endl;
-for(i=0;i<n;i++)
- {
-for(j=0;j<=n;j++)
-cout<<a[i][j]<<" ";
-cout<<endl;
-}
+	for(i=0;i<n;i++)
+	 {
+	for(j=0;j<=n;j++)
+	cout<<a[i][j]<<" ";
+	cout<<endl;
+	}
 	
 	//Gaussian elimination
-for(i=0;i<n;i++)
- {
- for(k=i+1;k<n;k++)
- {
- double t=a[k][i]/a[i][i];
- for(j=0;j<=n;j++)
- a[k][j]=a[k][j]-t*a[i][j];
- }
- }
+	for(i=0;i<n;i++)
+		 {
+		 for(k=i+1;k<n;k++)
+		 {
+		 double t=a[k][i]/a[i][i];
+		 for(j=0;j<=n;j++)
+		 a[k][j]=a[k][j]-t*a[i][j];
+		 }
+		 }
 
 	cout<<"\n the new matrix after gauss elimination \n"<<endl;
 	

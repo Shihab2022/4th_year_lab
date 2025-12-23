@@ -15,7 +15,7 @@ int main(){
 	for(j=0;j<=n;j++)
 	 cin>>a[i][j];
 	 
-	 // pre
+	 // pivotisation
 	 for(i=0;i<n;i++)
 		 for(k=i+1;k<n;k++){
 		 	if(abs(a[i][i])<abs(a[i][k])){
